@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen">
+			<input type="text" id="result" disabled>
+		</div>
+		<div class="buttons">
+			<button onclick="clearScreen()">C</button>
+			<button onclick="backspace()">&larr;</button>
+			<button onclick="calculate('%')">%</button>
+			<button onclick="calculate('/')">&divide;</button>
+			<button onclick="addNumber(7)">7</button>
+			<button onclick="addNumber(8)">8</button>
+			<button onclick="addNumber(9)">9</button>
+			<button onclick="calculate('*')">&times;</button>
+			<button onclick="addNumber(4)">4</button>
+			<button onclick="addNumber(5)">5</button>
+			<button onclick="addNumber(6)">6</button>
+			<button onclick="calculate('-')">&minus;</button>
+			<button onclick="addNumber(1)">1</button>
+			<button onclick="addNumber(2)">2</button>
+			<button onclick="addNumber(3)">3</button>
+			<button onclick="calculate('+')">+</button>
+			<button onclick="addNumber(0)">0</button>
+			<button onclick="addDecimal()">.</button>
+			<button onclick="calculate('=')">=</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
